@@ -1,0 +1,107 @@
+/*********************
+******css styles******
+*********************/
+
+/*common styles*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: black;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+/*header stlyles*/
+.header{
+    margin: 0.2em 0;
+}
+
+.header h1{
+    margin: 0;
+    text-align: center;
+    font: normal normal medium 3.1em/3.7em Raleway;
+    letter-spacing: 0;
+}
+
+/*image center section stlyles*/
+.central_image img{
+    width: 100%;
+}
+
+/*description section stlyles*/
+.description{
+    display: flow-root;
+    margin: 2em 10em;
+}
+
+.description p{
+    float: left;
+    width: 45%;
+    padding: 1em 0;
+    text-align: left;
+    font: normal normal 300 1em/1.1em Raleway;
+    letter-spacing: 0;
+}
+
+.description img{
+    float: right;
+    width: 40%;
+}
+
+/*features section stlyles*/
+.features{
+    display: flow-root;
+    background: #1E1A13 0% 0% no-repeat padding-box;
+    opacity: 0.98;
+    padding: 4em 16em;
+}
+
+.features h1{
+    text-align: center;
+    font: normal normal medium 2.5em/2.9em Raleway;
+    letter-spacing: 0em;
+    margin-bottom: 2em;
+}
+
+.feature{
+    float: left;
+    text-align: center;
+    width: 30%;
+    margin: 0.5em;
+}
+
+.feature i{
+    display: block;
+}
+
+.feature p{
+    font: normal normal 300 1em/1em Raleway;
+    letter-spacing: 0px;
+    padding: 0.6em;
+}
+
+/*images section stlyles*/
+.images{
+    display: flex;
+    justify-content: center;
+    padding: 4em 10em;
+}
+
+.images img{
+    width: 30%;
+    padding: 0 0.5em;
+}
+
+/*footer*/
+.footer{
+    padding: 2em 6em;
+    background: #1E1A13 0% 0% no-repeat padding-box;
+    opacity: 0.94;
+}
+
+.footer p{
+    text-align: center;
+}
